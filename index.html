@@ -31,19 +31,19 @@
 			<div id="navigation" class="header__toggle">
 				<ul>
 					<li>
-						<a ">cadastrar noticias</a>
-	      </li>
-	      <li>
-	        <a >exibir noticias</a>
-	      </li>
-	      <li>
-	        <div class=" header__toggle--input">
+						<a>cadastrar noticias</a>
+					</li>
+					<li>
+						<a>exibir noticias</a>
+					</li>
+					<li>
+						<div class=" header__toggle--input">
 							<input type="text" placeholder="buscar" class="header__toggle--text">
 							<input type="submit" name="Buscar" class="header__toggle--submit">
+						</div>
+					</li>
+				</ul>
 			</div>
-			</li>
-			</ul>
-		</div>
 		</div>
 	</header>
 
@@ -111,23 +111,7 @@
 		<p>
 	</footer>
 
-	<script type="text/javascript">
-		let open = false;
-		function toggleMenuMobile() {
-			const navigationMobile = document.getElementById("navigation");
-			const header = document.getElementById("header");
-			if (!open) {
-				navigationMobile.classList.add("active");
-				header.classList.add("active");
-				open = true;
-			} else {
-				navigationMobile.classList.remove("active");
-				header.classList.remove("active");
-				open = false;
-			}
-
-		}
-	</script>
+	<script src="./js/main.js"></script>
 </body>
 
 </html>
